@@ -18,7 +18,7 @@ namespace AutomatickeTestySelenium
             firefoxOptions = new FirefoxOptions();
             firefoxOptions.AddArguments("-private");
             firefox.Manage().Window.Maximize();
-            firefox.Manage().Timeouts().ImplicitWait;
+            //firefox.Manage().Timeouts().ImplicitWait;
         }
 
         [Test]
